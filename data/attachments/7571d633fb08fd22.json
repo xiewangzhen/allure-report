@@ -1,0 +1,1 @@
+{"case_name": "登录成功", "json": {"userName": 17783548086, "password": "lxy950328"}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "登录成功"}}, {"eq": {"code": 1}}, {"response_time": 0.5}], "extract": {"token": "$.data.token"}}
