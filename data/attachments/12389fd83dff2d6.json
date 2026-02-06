@@ -1,0 +1,1 @@
+{"case_name": "图片大小为5MB创建成功", "json": {"categoryId": 11, "name": "studyroom695900", "totalNumber": 20, "image": "https://lxy-big-event.oss-cn-beijing.aliyuncs.com/be800d0f-4e64-4a28-84a5-bbe3038cbeec.jpg"}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "创建自习室成功"}}, {"eq": {"code": 1}}, {"response_time": 1.5}]}

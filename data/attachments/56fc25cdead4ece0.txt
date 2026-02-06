@@ -1,0 +1,9 @@
+INFO     common.recordlog:conftest.py:19 -------------接口测试开始--------------
+INFO     common.recordlog:apiutil.py:45 url:http://134.175.71.80:8081/studyroom/create
+INFO     common.recordlog:rest_client.py:19 请求 -> POST http://134.175.71.80:8081/studyroom/create
+INFO     common.recordlog:rest_client.py:72 响应 -> 200 (0.020652s)
+INFO     common.recordlog:assertion_engine.py:89  包含断言通过
+INFO     common.recordlog:assertion_engine.py:89  包含断言通过
+INFO     common.recordlog:assertion_engine.py:97  相等断言通过
+INFO     common.recordlog:assertion_engine.py:80  时间校验通过: 0.020652s < 1.5s
+INFO     common.recordlog:conftest.py:21 -------------接口测试结束--------------
