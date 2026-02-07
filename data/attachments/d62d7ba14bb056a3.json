@@ -1,0 +1,1 @@
+{"case_name": "容量为-1创建失败", "json": {"categoryId": 11, "name": "studyroom880292", "totalNumber": -1}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "自习室容量至少为1"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}
