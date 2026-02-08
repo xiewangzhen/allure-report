@@ -1,0 +1,1 @@
+{"case_name": "名称长度21位超出范围创建失败", "json": {"categoryId": 11, "name": "studyroom\"14249266146", "totalNumber": 20}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "自习室名称应在1到20位"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}

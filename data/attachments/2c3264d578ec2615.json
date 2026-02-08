@@ -1,0 +1,1 @@
+{"case_name": "必选参数种类缺失创建失败", "json": {"name": "studyroom872898", "totalNumber": 20}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "自习室种类不能为空"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}

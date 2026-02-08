@@ -1,0 +1,1 @@
+{"case_name": "多一个未知参数创建成功", "json": {"categoryId": 11, "name": "studyroom169610", "totalNumber": 20, "abc": 123}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "创建自习室成功"}}, {"eq": {"code": 1}}, {"response_time": 1.5}]}

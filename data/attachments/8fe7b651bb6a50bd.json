@@ -1,0 +1,1 @@
+{"case_name": "十个存在的标签id创建成功", "json": {"categoryId": 11, "name": "studyroom349627", "totalNumber": 20, "tagIds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "创建自习室成功"}}, {"eq": {"code": 1}}, {"response_time": 1.5}]}
