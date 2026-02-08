@@ -1,0 +1,1 @@
+{"case_name": "标语为空创建成功", "json": {"categoryId": 11, "name": "studyroom437082", "totalNumber": 20, "slogan": null}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "创建自习室成功"}}, {"eq": {"code": 1}}, {"response_time": 1.5}]}

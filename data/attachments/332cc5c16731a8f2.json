@@ -1,0 +1,1 @@
+{"case_name": "容量为50创建成功", "json": {"categoryId": 11, "name": "studyroom282319", "totalNumber": 50}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "创建自习室成功"}}, {"eq": {"code": 1}}, {"response_time": 1.5}]}

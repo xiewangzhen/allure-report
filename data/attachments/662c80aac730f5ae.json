@@ -1,0 +1,1 @@
+{"case_name": "标签id为非数字创建失败", "json": {"categoryId": 11, "name": "studyroom719280", "totalNumber": 20, "tagIds": ["1", "2"]}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "创建自习室成功"}}, {"eq": {"code": 1}}, {"response_time": 1.5}]}
