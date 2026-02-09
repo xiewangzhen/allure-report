@@ -1,0 +1,1 @@
+{"case_name": "非必选参数全选且正确创建成功", "json": {"categoryId": 11, "name": "studyroom699795", "totalNumber": 20, "image": "https://lxy-big-event.oss-cn-beijing.aliyuncs.com/193a0e6a-39d6-4877-a392-438c2f4f2b53.jpg", "slogan": "123", "tagIds": [1, 2]}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "创建自习室成功"}}, {"eq": {"code": 1}}, {"response_time": 1.5}]}

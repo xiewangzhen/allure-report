@@ -1,0 +1,5 @@
+INFO     common.recordlog:apiutil.py:45 url:http://134.175.71.80:8081/user/login
+INFO     common.recordlog:rest_client.py:19 请求 -> POST http://134.175.71.80:8081/user/login
+ERROR    common.recordlog:rest_client.py:76 请求异常: HTTPConnectionPool(host='134.175.71.80', port=8081): Max retries exceeded with url: /user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc04bad2820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR    common.recordlog:apiutil.py:75 用例执行失败: HTTPConnectionPool(host='134.175.71.80', port=8081): Max retries exceeded with url: /user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc04bad2820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR    common.recordlog:conftest.py:31 登录接口出现异常，导致后续接口无法继续运行，请检查程序！，HTTPConnectionPool(host='134.175.71.80', port=8081): Max retries exceeded with url: /user/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc04bad2820>: Failed to establish a new connection: [Errno 111] Connection refused'))
