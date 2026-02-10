@@ -1,0 +1,1 @@
+{"case_name": "名称含特殊符号创建失败", "json": {"categoryId": 11, "name": "\"<= ||༺ཌༀൢ༒ൢༀད༻\"0244", "totalNumber": 20}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "自习室名称只能包含中文、英文、数字、下划线及常见标点符号"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}

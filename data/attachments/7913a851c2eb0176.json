@@ -1,0 +1,1 @@
+{"case_name": "标语含特殊字符创建失败", "json": {"categoryId": 11, "name": "studyroom766602", "totalNumber": 23, "slogan": "aaa<=|| ༺ཌༀൢ༒ൢༀད༻"}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "标语只能包含中文、英文、数字、下划线及常见标点符号"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}

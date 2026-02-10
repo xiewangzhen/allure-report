@@ -1,0 +1,1 @@
+{"case_name": "标语为33位创建失败", "json": {"categoryId": 11, "name": "studyroom786064", "totalNumber": 22, "slogan": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "标语必须小于等于32位"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}

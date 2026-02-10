@@ -1,0 +1,1 @@
+{"case_name": "标签id不存在创建失败", "json": {"categoryId": 11, "name": "studyroom106478", "totalNumber": 20, "tagIds": [1, 2, 39]}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "标签不存在"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}
