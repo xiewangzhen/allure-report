@@ -1,0 +1,1 @@
+{"case_name": "种类id不存在创建失败", "json": {"categoryId": 10, "name": "studyroom647468", "totalNumber": 20}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "自习室种类不存在"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}
