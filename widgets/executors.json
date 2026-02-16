@@ -1,1 +1,1 @@
-[{"name":"Jenkins","type":"jenkins","url":"http://43.139.234.23:8080/","buildOrder":35,"buildName":"api-test #35","buildUrl":"http://43.139.234.23:8080/job/api-test/35/","reportName":"AllureReport","reportUrl":"http://43.139.234.23:8080/job/api-test/35/allure"}]
+[{"name":"Jenkins","type":"jenkins","url":"http://43.139.234.23:8080/","buildOrder":46,"buildName":"api-test #46","buildUrl":"http://43.139.234.23:8080/job/api-test/46/","reportName":"AllureReport","reportUrl":"http://43.139.234.23:8080/job/api-test/46/allure"}]
