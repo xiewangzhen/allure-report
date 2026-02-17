@@ -1,0 +1,20 @@
+INFO     utils.recordlog:readyaml.py:35 已清空 extract.yaml 变量池
+INFO     utils.recordlog:case_executor.py:45 url:http://134.175.71.80:8081/user/login
+INFO     utils.recordlog:rest_client.py:19 请求 -> POST http://134.175.71.80:8081/user/login
+INFO     utils.recordlog:rest_client.py:70 捕获并保存 Cookie: {'REFRESH_TOKEN': '87c4f649-cd5c-4350-b2fe-53fa53c1f3f5'}
+INFO     utils.recordlog:rest_client.py:72 响应 -> 200 (0.02756s)
+INFO     utils.recordlog:case_executor.py:100 提取变量: token = eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzEyMDcyMDgsInVzZXJJZCI6MjV9.0Hv4Y6qCifh9RzKfi35-u3g5842wJNZFLLS5it65iAU
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:93  相等断言通过
+INFO     utils.recordlog:conftest.py:19 -------------接口测试开始--------------
+INFO     utils.recordlog:case_executor.py:45 url:http://134.175.71.80:8081/user/login
+INFO     utils.recordlog:rest_client.py:19 请求 -> POST http://134.175.71.80:8081/user/login
+INFO     utils.recordlog:rest_client.py:70 捕获并保存 Cookie: {'REFRESH_TOKEN': '3fcc019d-a4cd-4a55-a37c-4a1d072a314d'}
+INFO     utils.recordlog:rest_client.py:72 响应 -> 200 (0.010328s)
+INFO     utils.recordlog:case_executor.py:100 提取变量: token = eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzEyMDcyMDksInVzZXJJZCI6MjV9.8gzBvHnS6hRk2ew-qHOsYyC96FCLcegsfVW2wXSQZFk
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:93  相等断言通过
+INFO     utils.recordlog:assertion_engine.py:76  时间校验通过: 0.010328s < 0.5s
+INFO     utils.recordlog:conftest.py:21 -------------接口测试结束--------------
