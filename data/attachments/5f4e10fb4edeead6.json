@@ -1,0 +1,1 @@
+{"case_name": "容量为51创建失败", "json": {"categoryId": 11, "name": "51capacity", "totalNumber": 51}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "自习室容量不能超过50"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}
