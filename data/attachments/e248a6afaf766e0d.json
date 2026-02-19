@@ -1,0 +1,1 @@
+{"case_name": "必选参数名称写错创建失败", "json": {"categoryId": 11, "12name": "warmingname", "totalNumber": 20}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "自习室名称不能为空"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}

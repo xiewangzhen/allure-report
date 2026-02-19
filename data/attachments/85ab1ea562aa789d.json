@@ -1,0 +1,1 @@
+{"case_name": "用户已结束学习，结束失败", "json": {}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "用户当前没有加入自习室"}}, {"eq": {"code": 0}}, {"response_time": 1.5}], "data_validation": [{"check": "top_not_contains_user", "args": {"user_id": 25, "studyroom_id": 75}}, {"check": "not_exist_relation", "args": {"user_id": 25}}]}
