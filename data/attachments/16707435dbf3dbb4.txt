@@ -1,0 +1,11 @@
+INFO     utils.recordlog:conftest.py:19 -------------接口测试开始--------------
+INFO     utils.recordlog:case_executor.py:45 url:http://134.175.71.80:8081/relation/add
+INFO     utils.recordlog:rest_client.py:19 请求 -> POST http://134.175.71.80:8081/relation/add
+INFO     utils.recordlog:rest_client.py:72 响应 -> 400 (0.00965s)
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:93  相等断言通过
+INFO     utils.recordlog:assertion_engine.py:76  时间校验通过: 0.00965s < 1.5s
+INFO     utils.recordlog:data_assertion_engine.py:32 top_not_contains_user校验通过
+INFO     utils.recordlog:data_assertion_engine.py:32 not_exist_relation校验通过
+INFO     utils.recordlog:conftest.py:21 -------------接口测试结束--------------

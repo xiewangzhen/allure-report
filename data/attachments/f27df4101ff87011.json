@@ -1,0 +1,1 @@
+{"case_name": "标签id个数为11超出限制创建失败", "json": {"categoryId": 11, "name": "11tag", "totalNumber": 20, "tagIds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "最多只能选择10个标签"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}
