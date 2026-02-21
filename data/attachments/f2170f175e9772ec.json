@@ -1,0 +1,1 @@
+{"case_name": "自习室ID参数缺少，加入自习室失败", "json": {"userId": 25}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "自习室id不能为空"}}, {"eq": {"code": 0}}, {"response_time": 1.5}], "data_validation": [{"check": "not_exist_relation", "args": {"user_id": 25}}]}
