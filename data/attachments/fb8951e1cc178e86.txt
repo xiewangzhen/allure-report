@@ -1,0 +1,24 @@
+INFO     utils.recordlog:case_executor.py:45 url:http://134.175.71.80:8081/user/login
+INFO     utils.recordlog:rest_client.py:19 请求 -> POST http://134.175.71.80:8081/user/login
+INFO     utils.recordlog:rest_client.py:70 捕获并保存 Cookie: {'REFRESH_TOKEN': '97f28050-2f3c-4af9-b8ba-391d3b063fee'}
+INFO     utils.recordlog:rest_client.py:72 响应 -> 200 (0.009719s)
+INFO     utils.recordlog:case_executor.py:100 提取变量: token = eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzE3MjU2MTAsInVzZXJJZCI6MjV9.QRba5TJ1OyIylGI-8cwA0zX0RovpVLNLrmnN0Vp3Ni4
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:93  相等断言通过
+INFO     utils.recordlog:rest_client.py:19 请求 -> POST http://134.175.71.80:8081/relation/add
+INFO     utils.recordlog:rest_client.py:72 响应 -> 200 (0.023688s)
+INFO     utils.recordlog:rest_client.py:19 请求 -> PATCH http://134.175.71.80:8081/relation/stop
+INFO     utils.recordlog:rest_client.py:72 响应 -> 200 (0.006898s)
+INFO     utils.recordlog:conftest.py:19 -------------接口测试开始--------------
+INFO     utils.recordlog:case_executor.py:45 url:http://134.175.71.80:8081/relation/start
+INFO     utils.recordlog:rest_client.py:19 请求 -> PATCH http://134.175.71.80:8081/relation/start
+INFO     utils.recordlog:rest_client.py:72 响应 -> 200 (0.012855s)
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:85  包含断言通过
+INFO     utils.recordlog:assertion_engine.py:93  相等断言通过
+INFO     utils.recordlog:assertion_engine.py:76  时间校验通过: 0.012855s < 1.5s
+INFO     utils.recordlog:data_assertion_engine.py:32 top_contains_user校验通过
+INFO     utils.recordlog:data_assertion_engine.py:32 exist_relation校验通过
+INFO     utils.recordlog:data_assertion_engine.py:32 is_start_state校验通过
+INFO     utils.recordlog:conftest.py:21 -------------接口测试结束--------------
