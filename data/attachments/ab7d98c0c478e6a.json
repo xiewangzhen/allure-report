@@ -1,0 +1,1 @@
+{"case_name": "密码为17位，登录失败", "json": {"userName": 17783548086, "password": 12345678901234567}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "密码必须是8-16为的字母、数字、下划线"}}, {"eq": {"code": 0}}, {"response_time": 0.5}]}
