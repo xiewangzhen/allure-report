@@ -1,0 +1,1 @@
+{"case_name": "自习室id不存在，加入自习室失败", "json": {"userId": 25, "studyroomId": 712325}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "自习室不存在"}}, {"eq": {"code": 0}}, {"response_time": 1.5}], "data_validation": [{"check": "top_not_contains_user", "args": {"user_id": 25, "studyroom_id": 75}}, {"check": "not_exist_relation", "args": {"user_id": 25}}]}
