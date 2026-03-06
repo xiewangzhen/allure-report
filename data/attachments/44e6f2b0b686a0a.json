@@ -1,0 +1,1 @@
+{"case_name": "自习室id \"75\"存在（字符串形式），加入自习室成功", "json": {"userId": 25, "studyroomId": "75"}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "加入自习室成功"}}, {"eq": {"code": 1}}, {"response_time": 1.5}], "data_validation": [{"check": "top_contains_user", "args": {"user_id": 25, "studyroom_id": 75}}, {"check": "exist_relation", "args": {"user_id": 25}}]}
