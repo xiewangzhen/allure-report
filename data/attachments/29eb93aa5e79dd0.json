@@ -1,0 +1,1 @@
+{"case_name": "用户ID参数缺少，加入自习室失败", "json": {"studyroomId": 75}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "用户id不能为空"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}
