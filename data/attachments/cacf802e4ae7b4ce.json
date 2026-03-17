@@ -1,0 +1,1 @@
+{"case_name": "密码错误登录失败", "json": {"userName": 17783548086, "password": 1234567123}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "密码不正确"}}, {"eq": {"code": 0}}, {"response_time": 0.5}]}

@@ -1,0 +1,1 @@
+room_should_exist校验通过
