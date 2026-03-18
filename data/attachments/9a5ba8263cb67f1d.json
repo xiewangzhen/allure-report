@@ -1,0 +1,1 @@
+{"case_name": "账号包含特殊字符，登录失败", "json": {"userName": "a#%￥——123456", "password": "lxy950328"}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "账号必须是8-16位的数字"}}, {"eq": {"code": 0}}, {"response_time": 0.5}]}
