@@ -1,0 +1,1 @@
+{"case_name": "账号参数名称错误，登录失败", "json": {"ffaefuserName": 17783548086, "password": "lxy950328"}, "validation": [{"contains": {"status_code": 400}}, {"eq": {"code": 0}}, {"response_time": 0.5}]}

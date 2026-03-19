@@ -1,0 +1,1 @@
+{"case_name": "用户已加入其他自习室，加入自习室失败", "json": {"userId": 25, "studyroomId": 75}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "已经加入过自习室"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}
