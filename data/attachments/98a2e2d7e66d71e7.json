@@ -1,0 +1,1 @@
+{"case_name": "名称已经存在创建失败", "json": {"categoryId": 11, "name": "数学自习室", "totalNumber": 20}, "validation": [{"contains": {"status_code": 200}}, {"contains": {"msg": "已经存在"}}, {"eq": {"code": 0}}, {"response_time": 1.5}]}
