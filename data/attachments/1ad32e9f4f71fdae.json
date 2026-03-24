@@ -1,0 +1,1 @@
+{"case_name": "不携带参数，登录失败", "json": {}, "validation": [{"contains": {"status_code": 400}}, {"response_time": 0.5}]}
