@@ -1,0 +1,1 @@
+{"case_name": "账号为空，登录失败", "json": {"userName": null, "password": "lxy950328"}, "validation": [{"contains": {"status_code": 400}}, {"contains": {"msg": "账号不能为空"}}, {"eq": {"code": 0}}, {"response_time": 0.5}]}
