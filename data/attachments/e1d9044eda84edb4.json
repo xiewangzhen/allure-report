@@ -1,0 +1,1 @@
+{"case_name": "未传入账号参数，登录失败", "json": {"password": "lxy950328"}, "validation": [{"contains": {"status_code": 400}}, {"eq": {"code": 0}}, {"response_time": 0.5}]}
